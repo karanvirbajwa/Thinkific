@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9e2e73f-d730-4baf-b50a-1dc5387c0901" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="20tBy5QUKvm2RdRpoEvVDXwmrFT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoProject" />
+  </component>
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="RestAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="managers.RestAPI" />
+      <module name="Thinkific" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="managers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Thinkific" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Thinkific.feature" />
+      <option name="GLUE" value="stepDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Thinkific" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Thinkific" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: API task" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Thinkific.feature" />
+      <option name="GLUE" value="stepDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Thinkific" />
+      <option name="NAME_FILTER" value="^API task$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^API task$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: API task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Thinkific.feature" />
+      <option name="GLUE" value="stepDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Thinkific" />
+      <option name="NAME_FILTER" value="^Login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Thinkific" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber java.Feature: Thinkific" />
+        <item itemvalue="Cucumber java.Scenario: API task" />
+        <item itemvalue="Cucumber java.Scenario: Login" />
+        <item itemvalue="Application.RestAPI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9e2e73f-d730-4baf-b50a-1dc5387c0901" name="Default Changelist" comment="" />
+      <created>1636854254967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636854254967</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="804" y="313" key="FileChooserDialogImpl" timestamp="1636914021620">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="804" y="313" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1636914021620" />
+    <state width="2004" height="323" key="GridCell.Tab.0.bottom" timestamp="1636945973949">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2004" height="323" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1636945973949" />
+    <state width="2004" height="323" key="GridCell.Tab.0.center" timestamp="1636945973949">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2004" height="323" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1636945973949" />
+    <state width="2004" height="323" key="GridCell.Tab.0.left" timestamp="1636945973948">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2004" height="323" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1636945973948" />
+    <state width="2004" height="323" key="GridCell.Tab.0.right" timestamp="1636945973949">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2004" height="323" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1636945973949" />
+    <state x="731" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1636932282514">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="731" y="382" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1636932282514" />
+    <state x="680" y="253" key="run.anything.popup" timestamp="1636923445060">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="680" y="253" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1636923445060" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1636937544125">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1636937544125" />
+  </component>
+</project>

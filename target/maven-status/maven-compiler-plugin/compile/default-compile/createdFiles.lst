@@ -1,0 +1,11 @@
+managers\RestAPI.class
+pages\ThinkificDashboard.class
+pages\ThinkificLoginPage.class
+utilities\DriverType.class
+utilities\CommonUtils.class
+utilities\SuiteLogger.class
+dataProviders\ConfigFileReader.class
+managers\FileReaderManager.class
+pages\ThinkificInstructors.class
+utilities\SingeltonWebDriver.class
+utilities\Wrappers.class

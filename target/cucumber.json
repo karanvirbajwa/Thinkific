@@ -1,0 +1,157 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-15T03:10:47.363Z",
+        "line": 4,
+        "name": "UI task",
+        "description": "",
+        "id": "thinkific-test-cases;ui-task",
+        "after": [
+          {
+            "result": {
+              "duration": 2119000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.hookStepDefs.writeExcelFile()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23452000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logged into the application",
+            "match": {
+              "location": "stepDefs.ThinkificStepDefs.thinkificLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29401000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to \u0027Instructors\u0027 section and create new instructor",
+            "match": {
+              "location": "stepDefs.ThinkificStepDefs.goToInstructors()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36956000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify Successfully Created Message on the left bottom side",
+            "match": {
+              "location": "stepDefs.ThinkificStepDefs.verifyMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@CreateExcel,"
+          },
+          {
+            "name": "@WriteExcel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-15T03:12:19.734Z",
+        "line": 10,
+        "name": "API task",
+        "description": "",
+        "id": "thinkific-test-cases;api-task",
+        "after": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.hookStepDefs.DeleteExcel()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3192000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User successfully hit the API and response code is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefs.APIStepDefs.compareapii(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2443000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify Instructor created in UI task is in response",
+            "match": {
+              "location": "stepDefs.APIStepDefs.verifyInstructor()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 527000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify response of API contains data of Instructor created in UI task",
+            "match": {
+              "location": "stepDefs.APIStepDefs.verifyInstructorData()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@ReadExcel,"
+          },
+          {
+            "name": "@DeleteExcel"
+          }
+        ]
+      }
+    ],
+    "name": "Thinkific Test cases",
+    "description": "",
+    "id": "thinkific-test-cases",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Thinkific.feature",
+    "tags": []
+  }
+]
