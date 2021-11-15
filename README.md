@@ -1,5 +1,8 @@
 # Thinkific
 
+**Execution:** 
+For execution directly execute test cases by TestRunner file or command line maven
+
 Used Java, Cucumber and Selenium to complete UI task
 Used Java, Rest Assured, Json Parser to complete API task
 Tried to create framework enhanced as much as possible
