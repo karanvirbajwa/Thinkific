@@ -15,13 +15,13 @@ public class ThinkificDashboard {
     }
 
     @FindBy(xpath = "//i[contains(@class,'manage')]//parent::a")
-    public WebElement ManageLearningContentLink;
+    public WebElement manageLearningContentLink;
 
     @FindBy(xpath = "//a[contains(text(),'Instructors')]")
-    public WebElement InstructorsOption;
+    public WebElement instructorsOption;
 
     @FindBy(xpath = "//span[contains(text(),'Signed in successfully.')]//parent::div")
-    public WebElement SignedInMessage;
+    public WebElement signedInMessage;
 
     @FindBy(css = "[id='account-accordion']")
     public WebElement userAccountLink;
@@ -47,14 +47,14 @@ public class ThinkificDashboard {
      * Following method is used to click on Instructors link under Manage section
      */
     public void navigateToInstructors(){
-        Wrappers.click(ManageLearningContentLink);
-        Wrappers.click(InstructorsOption);
+        Wrappers.click(manageLearningContentLink);
+        Wrappers.click(instructorsOption);
     }
 
     /**
      * Following method is verify the sign in message
      */
     public boolean verifySigninMessage(){
-       return Wrappers.isDisplayed(SignedInMessage);
+       return Wrappers.isDisplayed(signedInMessage);
     }
 }

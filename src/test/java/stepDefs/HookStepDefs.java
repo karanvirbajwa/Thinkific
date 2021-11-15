@@ -12,8 +12,9 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import utilities.SuiteLogger;
 
-public class hookStepDefs {
+public class HookStepDefs {
     static String TITLE ;
     static String FIRSTNAME;
     static String LASTNAME;
@@ -26,7 +27,7 @@ public class hookStepDefs {
      */
     @Before("@CreateExcel")
     public void creatExcelFile() throws IOException {
-        System.out.println("Creating temp excel file");
+        SuiteLogger.getGlobal().info("Creating temp excel file");
         Workbook wb = new HSSFWorkbook();
         OutputStream fileOut = new FileOutputStream(EXCELFILE);
         wb.write(fileOut);
@@ -39,8 +40,7 @@ public class hookStepDefs {
     @After("@WriteExcel")
     public void writeExcelFile() throws Exception
     {
-        System.out.println("Writing the Instructor data from UI to excel");
-
+        SuiteLogger.getGlobal().info("Writing the Instructor data from UI to excel");
         XSSFWorkbook workbook = new XSSFWorkbook();
         XSSFSheet spreadsheet = workbook.createSheet("Instrutor_Data");
 
@@ -75,7 +75,7 @@ public class hookStepDefs {
      */
     @Before("@ReadExcel")
     public void FetchData() throws IOException {
-        System.out.println("Reading the data from excel file for comparison with API response");
+        SuiteLogger.getGlobal().info("Reading the data from excel file for comparison with API response");
         FileInputStream fis = new FileInputStream(EXCELFILE);
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         XSSFSheet sheet = workbook.getSheet("Student Data");
@@ -91,7 +91,7 @@ public class hookStepDefs {
      */
     @After("@DeleteExcel")
     public void DeleteExcel() {
-        System.out.println("Deleting the temp excel file after verification with API");
+        SuiteLogger.getGlobal().info("Deleting the temp excel file after verification with API");
         File fis = new File(EXCELFILE);
         fis.delete();
     }

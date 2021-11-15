@@ -3,10 +3,11 @@ package stepDefs;
 import managers.FileReaderManager;
 import org.openqa.selenium.WebDriver;
 import utilities.SingeltonWebDriver;
+import utilities.SuiteLogger;
 
 import java.util.concurrent.TimeUnit;
 
-public class commonStepDefs {
+public class CommonStepDefs {
 
     protected WebDriver getWebDriver(){
         String browserName = System.getProperty("browser");
@@ -24,6 +25,6 @@ public class commonStepDefs {
         getWebDriver().manage().window().maximize();
         getWebDriver().manage().timeouts().implicitlyWait(FileReaderManager.getInstance().getConfigFileReader().getImplicitlyWait(), TimeUnit.SECONDS);
         getWebDriver().get(url);
-        System.out.println("URL Hit");
+        SuiteLogger.getGlobal().info("url hit");
     }
 }

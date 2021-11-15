@@ -3,6 +3,7 @@ package managers;
 import org.junit.Assert;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
+import utilities.SuiteLogger;
 
 public class RestAPI {
 
@@ -24,7 +25,7 @@ public class RestAPI {
                 .when().get(FileReaderManager.getInstance().getConfigFileReader().getAPIData("resource"))
                 .then().assertThat().statusCode(value).extract().response().asString();
 
-        System.out.println("Successfully validated API response is : " + value);
+        SuiteLogger.getGlobal().info("Successfully validated API response is : "+value);
     }
 
     /**
@@ -37,7 +38,7 @@ public class RestAPI {
         int count = 0;
         for(int i=0; i<js.getInt("items.size()"); i++){
             if (js.getString("items["+i+"].email").equals(email)){
-                System.out.println("Instructor created in UI Automation is in the API response");
+                SuiteLogger.getGlobal().info("Instructor created in UI Automation is in the API response ");
                 count ++;
                 break;
             }
@@ -60,19 +61,19 @@ public class RestAPI {
 
             if (js.getString("items["+i+"].email").equals(email))
             {
-                System.out.println("Email value from UI : "+email);
-                System.out.println("Email value from API : "+js.getString("items["+i+"].email"));
+                SuiteLogger.getGlobal().info("Email value from UI : "+email);
+                SuiteLogger.getGlobal().info("Email value from API : "+js.getString("items["+i+"].email"));
 
-                System.out.println("FirstName value from UI : "+firstname);
-                System.out.println("FirstName value from API : "+js.getString("items["+i+"].first_name"));
+                SuiteLogger.getGlobal().info("Email value from UI : "+firstname);
+                SuiteLogger.getGlobal().info("Email value from API : "+js.getString("items["+i+"].first_name"));
                 Assert.assertEquals("First Name of newly created instructor not received in GET request", js.getString("items[" + i + "].first_name"), firstname);
 
-                System.out.println("LastName value from UI : "+lastname);
-                System.out.println("LastName value from API : "+js.getString("items["+i+"].last_name"));
+                SuiteLogger.getGlobal().info("Email value from UI : "+lastname);
+                SuiteLogger.getGlobal().info("Email value from API : "+js.getString("items["+i+"].last_name"));
                 Assert.assertEquals("Last Name of newly created instructor not received in GET request", js.getString("items[" + i + "].last_name"), lastname);
 
-                System.out.println("Title value from UI : "+title);
-                System.out.println("Title value from API : "+js.getString("items["+i+"].title"));
+                SuiteLogger.getGlobal().info("Email value from UI : "+title);
+                SuiteLogger.getGlobal().info("Email value from API : "+js.getString("items["+i+"].title"));
                 Assert.assertEquals("Title of newly created instructor not received in GET request", js.getString("items[" + i + "].title"), title);
                 count++;
             }

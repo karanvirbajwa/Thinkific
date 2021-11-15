@@ -24,7 +24,7 @@ public class APIStepDefs {
 
     @Then("^Verify Instructor created in UI task is in response$")
     public void verifyInstructor(){
-        arr = hookStepDefs.getExcelData();
+        arr = HookStepDefs.getExcelData();
         EMAIL = arr[0]; FIRSTNAME = arr[1]; LASTNAME = arr[2]; TITLE = arr[3];
         Assert.assertTrue("Instructor you created in your UI Automation is not in the response",api.verifyInstructor(EMAIL));
     }

@@ -15,33 +15,32 @@ public class ThinkificLoginPage {
     }
 
     @FindBy(css = "#email")
-    public WebElement EmailTextBox;
+    public WebElement emailTextBox;
 
     @FindBy(css = "#password")
-    public WebElement PasswordTextBox;
+    public WebElement passwordTextBox;
 
     @FindBy(css = "button[type='submit']")
-    public WebElement SignInButton;
+    public WebElement signInButton;
 
     /**
      * Following method is used to enter email
      */
     public void enterEmail(String value){
-        Wrappers.sendKeys(EmailTextBox,value);
+        Wrappers.sendKeys(emailTextBox,value);
     }
 
     /**
      * Following method is used to enter password
      */
     public void enterPassword(String value){
-        Wrappers.sendKeys(PasswordTextBox,value);
+        Wrappers.sendKeys(passwordTextBox,value);
     }
 
     /**
      * Following method is used to click SignIn button
      */
     public void clickSignInButton(){
-        Wrappers.click(SignInButton);
+        Wrappers.click(signInButton);
     }
-
 }

@@ -5,7 +5,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import managers.FileReaderManager;
-import managers.RestAPI;
 import org.junit.Assert;
 import pages.ThinkificDashboard;
 import pages.ThinkificInstructors;
@@ -13,7 +12,7 @@ import pages.ThinkificLoginPage;
 import utilities.CommonUtils;
 import utilities.Wrappers;
 
-public class ThinkificStepDefs extends commonStepDefs{
+public class ThinkificStepDefs extends CommonStepDefs {
     static String TITLE = "Senior Instructor";
     static String FIRSTNAME;
     static String LASTNAME;

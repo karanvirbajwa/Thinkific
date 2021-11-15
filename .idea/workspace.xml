@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9e2e73f-d730-4baf-b50a-1dc5387c0901" name="Default Changelist" comment="" />
+    <list default="true" id="c9e2e73f-d730-4baf-b50a-1dc5387c0901" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/managers/RestAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/managers/RestAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ThinkificDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ThinkificDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ThinkificInstructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ThinkificInstructors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ThinkificLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ThinkificLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/APIStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/APIStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/ThinkificStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ThinkificStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/commonStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/CommonStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/hookStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/HookStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/managers/RestAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/managers/RestAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ThinkificDashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ThinkificDashboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ThinkificInstructors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ThinkificInstructors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ThinkificLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ThinkificLoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/Wrappers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utilities/Wrappers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/APIStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/APIStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/ThinkificStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/ThinkificStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/commonStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/commonStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/hookStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/hookStepDefs.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +37,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="20tBy5QUKvm2RdRpoEvVDXwmrFT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoProject" />
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">
@@ -138,21 +165,25 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="804" y="313" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1636914021620" />
-    <state width="2004" height="323" key="GridCell.Tab.0.bottom" timestamp="1636945973949">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1322" height="269" key="GridCell.Tab.0.bottom" timestamp="1636995221915">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="269" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1636995221915" />
     <state width="2004" height="323" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1636945973949" />
-    <state width="2004" height="323" key="GridCell.Tab.0.center" timestamp="1636945973949">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1322" height="269" key="GridCell.Tab.0.center" timestamp="1636995221915">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="269" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1636995221915" />
     <state width="2004" height="323" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1636945973949" />
-    <state width="2004" height="323" key="GridCell.Tab.0.left" timestamp="1636945973948">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1322" height="269" key="GridCell.Tab.0.left" timestamp="1636995221914">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="269" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1636995221914" />
     <state width="2004" height="323" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1636945973948" />
-    <state width="2004" height="323" key="GridCell.Tab.0.right" timestamp="1636945973949">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1322" height="269" key="GridCell.Tab.0.right" timestamp="1636995221915">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="269" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1636995221915" />
     <state width="2004" height="323" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1636945973949" />
     <state x="731" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1636932282514">
       <screen x="0" y="0" width="2048" height="1112" />
