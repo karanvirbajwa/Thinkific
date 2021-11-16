@@ -1,6 +1,15 @@
 # Thinkific
 
 **Execution:** 
+Install Java and set to your environment variables
+
+Install Maven and set to your environment variables
+Verify maven is installed by executing "mvn -version" command in cmd
+
+In cmd open project where it is stored 
+Execute "mvn clean" command to clean target folder
+Execute "mvn test" command to execute test cases 
+
 For execution directly execute test cases by TestRunner file or command line maven
 
 Used Java, Cucumber and Selenium to complete UI task
